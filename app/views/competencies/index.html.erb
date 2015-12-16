@@ -24,3 +24,10 @@
 <%= label_tag(:ranking, 9) %>
 <%= radio_button_tag(:ranking, 10) %>
 <%= label_tag(:ranking, 10) %>
+
+<%= bootstrap_form_for @competencies do |f| %>
+<div class="form-group">
+  <%= f.text_field :notes %>
+</div>
+<%= f.submit class: "btn btn-success" %>
+<% end %>
