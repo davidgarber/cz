@@ -3,39 +3,9 @@
 <h1>Core Competencies</h1>
 
 
-<h2>Operating Systems</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<h2>Operating Systems</h2> <hr>
+<%= render "partial" %>
 <h4>OSX/Linux</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -129,38 +99,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Command Line</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Navigation</h4>
 
@@ -235,38 +174,7 @@ Ratings Explained</button>
 <h2>Front End</h2><br>
 
 <h2>HTML</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>The Dom</h4>
 
@@ -361,38 +269,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>CSS</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Sass & Less</h4>
 
@@ -487,38 +364,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>JavaScript</h2><hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>JQuery</h4>
 
@@ -544,38 +390,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Client-Side MVCs</h2><hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Ember</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -645,38 +460,7 @@ Ratings Explained</button>
 <%= radio_button_tag(:ranking, 10) %>
 <%= label_tag(:ranking, 10) %>
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Prototypes & Objects</h4>
 
@@ -840,38 +624,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Deployment</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Continuous Deployment (CD)</h4>
 
@@ -942,38 +695,7 @@ Ratings Explained</button>
 <%= radio_button_tag(:ranking, 10) %>
 <%= label_tag(:ranking, 10) %>
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Configuration Management</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -1044,38 +766,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Platform</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Dedicated</h4>
 
@@ -1149,38 +840,7 @@ Ratings Explained</button>
 <h2>Testing</h2> <br>
 
 <h2>Types</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Unit</h4>
 
@@ -1321,38 +981,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Tools</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Rspec & MiniTest</h4>
 
@@ -1424,38 +1053,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Testing Methodologies</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Test Driven Development</h4>
 
@@ -1527,38 +1125,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>SQL & Data Modeling</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Query Methods</h4>
 
@@ -1676,38 +1243,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Performance</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Slow Query Logs</h4>
 
@@ -1781,38 +1317,7 @@ Ratings Explained</button>
 <h2>Ruby</h2> <br>
 
 <h2>Object Oriented Programming</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Classes & Modules</h4>
 
@@ -1884,38 +1389,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Functional Programming</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Blocks</h4>
 
@@ -1964,38 +1438,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Flow Controls</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Conditions</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -2043,38 +1486,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Repls & Debugging</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -2122,38 +1534,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Ruby Gems</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>RVM & Rbenv</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -2178,38 +1559,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Gems</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>File Structure</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -2259,38 +1609,7 @@ Ratings Explained</button>
 <h2>Rails</h2> <br>
 
 <h2>MVC</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Asset Pipeline & Preprocessors</h4>
 
@@ -2339,38 +1658,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Performance</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Monitoring</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -2441,38 +1729,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>REST</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Routing</h4>
 
@@ -2590,38 +1847,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Patterns</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>HAL (Hypertext Application Language)</h4>
 
@@ -2670,38 +1896,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Versioning</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -2749,38 +1944,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>ORM</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Relational Schemas</h4>
 
@@ -2944,38 +2108,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>User Management</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Authorization</h4>
 
@@ -3047,38 +2180,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Conventions & Best Practices</h2><hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>l18n & Time Zones</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -3149,38 +2251,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>CLI</h2><hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Rails Console</h4>
 
@@ -3252,38 +2323,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Action Mailer</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -3308,38 +2348,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Version Control Systems</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Distributed VCS</h4>
 
@@ -3595,38 +2604,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>IDE/Text Editors</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Syntax Highlighting</h4>
 
@@ -3721,38 +2699,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Power Editing</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Multiline Editing</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -3823,38 +2770,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Software Engineering</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Application Architecture</h4>
 
@@ -3926,38 +2842,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 
 <h4>Agile</h4>
 
@@ -4098,38 +2983,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>High Bandwidth Communication</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -4154,38 +3008,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Project Management</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Planning & Estimating</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -4256,38 +3079,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Regular Expressions</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -4312,38 +3104,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Computer Science Concepts</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -4368,38 +3129,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Patterns</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -4426,38 +3156,7 @@ Ratings Explained</button>
 <h2>Additional Lists</h2> <br>
 
 <h2>Solo Abilities</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Can Create Simple Applications without any Assistance</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -4528,38 +3227,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Testing</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Test Driven Development</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -4630,38 +3298,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Best Practices</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Refactoring</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -4824,38 +3461,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Pair Programmer</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Can Articulate a Design or Algorithm</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -4903,38 +3509,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Techniques</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Evil Pair</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -5005,38 +3580,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Agile Software Process</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Works in Iterations</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -5291,38 +3835,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Polyglot</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Familiarity with a Variety of Language Constructs</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -5393,38 +3906,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Soft Skills</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Communication Skills</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
@@ -5541,38 +4023,7 @@ Ratings Explained</button>
 <%= label_tag(:ranking, 10) %>
 
 <h2>Doing</h2> <hr>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-Ratings Explained</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Ratings</h4>
-      </div>
-      <div class="modal-body">
-        <ol>
-          <li>I have never seen, heard of or used this. I am unfamiliar to the term or concept. I would be interested in finding out more about it.</li>
-          <li>I have heard something about it but I might not remember exactly what it is or does. I might know in what category it falls under, and a brief description of where it is used or what it is, but not much more than that.</li>
-          <li>I have heard of this subject. I have done some preliminary research and know what it is or does. I have not yet done any tutorials or real live work with the subject, but just some reading (docs, READMEs, faqs, information, etc.).</li>
-          <li>I have now gone through a tutorial or official practiced learning/teaching on the subject (i.e. lessons/tutorials/talks from Youtube, blogs, official sites). There is a possibility that this did not involve live work (when applicable), however I can tell you the base concepts of what it is used for and/or what it does.</li>
-          <li>I have now 100% done some sort of live work with this subject (when applicable). I have a solid base understanding of what the subject is or does, and I have to have the ability to discuss it with a bit of confidence.</li>
-          <li>I am starting to gain the ability to provide insight on the subject to others who maybe asking about it. My ability to teach about the subject has grown stronger, and I am starting to use this subject with confidence.</li>
-          <li>I have started going much deeper into the learnings of this subject. I am learning some history and philosophy surrounding best practices, how to use the subject efficiently and effectively, and what technology the subject is using (when applicable).</li>
-          <li>I am now look that as a knowledgeable and competent user of the subject. Following best practices and principles surrounding the subject. I can explain clearly and teach confidently some of the more detailed workings of the subject.</li>
-          <li>I am very comfortable in this subject. I have potentially made multiple implementation contributions (where applicable), or have enough knowledge to write a small book or give a professional talk on the subject.</li>
-          <li>I am a core contributor/maintainer or helped in the creation of this subject. I have complete domain knowledge in all aspects of the subject. I am never stumped by questions on the subject</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "partial" %>
 <h4>Engaging Live Presentations</h4>
 
 <%= radio_button_tag(:ranking, 1) %>
