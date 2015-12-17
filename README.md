@@ -1,6 +1,8 @@
 #Coding Zeal Core Competencies
 
-<h2>Setup instructions:</h2>. In the terminal:
+<h2>Setup instructions:</h2>
+
+In the terminal:
 
 git clone https://github.com/davidgarber/cz
 
